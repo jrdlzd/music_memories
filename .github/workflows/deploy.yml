@@ -17,6 +17,8 @@ jobs:
         uses: helaili/jekyll-action@v2
 
       - name: Build and Deploy
+        env:
+          JEKYLL_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           bundle install
           bundle exec jekyll build -d _site
