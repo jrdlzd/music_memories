@@ -1,0 +1,11 @@
+# Site settings
+title: "Your Site Title"
+description: "A short description of your site."
+baseurl: ""  # left blank
+url: "https://jrdlzd.github.io/music_memories/"  
+
+# Jekyll settings
+theme: jekyll-theme-primer  # Default GitHub Pages theme
+markdown: kramdown  # Markdown processor
+
+source: .
